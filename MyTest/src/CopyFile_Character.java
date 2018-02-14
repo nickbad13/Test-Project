@@ -14,8 +14,8 @@ public class CopyFile_Character{
       FileWriter out = null;
 
       try {
-//         in = new FileReader("C:\\TRAINING\\BASICS\SAMPLES3\\input.txt");
-//         out = new FileWriter("C:\\TRAINING\\BASICS\\SAMPLES3\\output.txt");
+//         in = new FileReader("C:\TRAINING\\BASICS\SAMPLES3\input.txt");
+//         out = new FileWriter("C:\TRAINING\\BASICS\SAMPLES3\output.txt");
     	  in = new FileReader(inputFile);
           out = new FileWriter(outputFile);
     	  
