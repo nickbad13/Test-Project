@@ -8,16 +8,17 @@ import java.time.LocalDateTime;
  * @author User
  *
  */
-public class TestThreadRunnable implements Runnable {
+public class TestThreadRunnable2 implements Runnable {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 			System.out.println("This is currently running on the main thread," + 
 					"the ID is:" + Thread.currentThread().getId());
-		TestThreadRunnable worker = new TestThreadRunnable ();
+		TestThreadRunnable2 worker = new TestThreadRunnable2 ();
 		Thread thread = new Thread(worker);
 		Thread t2 = new Thread(worker);
 		t2.start();
